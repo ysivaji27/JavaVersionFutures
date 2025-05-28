@@ -31,10 +31,10 @@ public class Java11samples {
 
         //New File Methods
         //We can use the new readString and writeString static methods from the Files class:
-        String tempDir = "/Users/sivajiyelugoti/workspace/Java21exercise";
-        Path filePath = Files.writeString(Files.createTempFile(tempDir, "demo", ".txt"), "Sample text");
-        String fileContent = Files.readString(filePath);
-        System.out.println(fileContent);
+//        String tempDir = "/Users/sivajiyelugoti/workspace/Java21exercise";
+//        Path filePath = Files.writeString(Files.createTempFile(tempDir, "demo", ".txt"), "Sample text");
+//        String fileContent = Files.readString(filePath);
+//        System.out.println(fileContent);
 
 
         //The Not Predicate Method
@@ -45,10 +45,10 @@ public class Java11samples {
 
 
         //Local-Variable Syntax for Lambda
-        List<String> sampleList = Arrays.asList("Java", "Kotlin");
-        String resultString = sampleList.stream()
-                .map((@Nonnull var x) -> x.toUpperCase())
-                .collect(Collectors.joining(", "));
+//        List<String> sampleList = Arrays.asList("Java", "Kotlin");
+//        String resultString = sampleList.stream()
+//                .map((@Nonnull var x) -> x.toUpperCase())
+//                .collect(Collectors.joining(", "));
 
 
         //The new HTTP client from the java.net.http package was introduced in Java 9. It has now become a standard feature in Java 11.
@@ -75,9 +75,9 @@ public class Java11samples {
 
       //  Java 11 fixes this issue and provides means to query the new class file attributes using the reflection API:
 
-        Set<String> nestedMembers = Arrays.stream(MainClass.NestedClass.class.getNestMembers())
-                .map(Class::getName)
-                .collect(Collectors.toSet());
+//        Set<String> nestedMembers = Arrays.stream(MainClass.NestedClass.class.getNestMembers())
+//                .map(Class::getName)
+//                .collect(Collectors.toSet());
 
         //assertThat(nestedMembers).contains(MainClass.class.getName(), MainClass.NestedClass.class.getName());
 

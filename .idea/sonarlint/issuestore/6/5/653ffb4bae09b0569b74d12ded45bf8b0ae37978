@@ -1,0 +1,26 @@
+
+L
+java:S3740*"/Provide the parametrized type for this generic.(¨Ëå”8‘»¡—ñ2
+L
+java:S3740@"/Provide the parametrized type for this generic.(×ù™Ž8‘»¡—ñ2
+o
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8¹»¡—ñ2
+L	java:S106"+Replace this use of System.out by a logger.(ÎýÐòüÿÿÿÿ8¿»¡—ñ2
+]	java:S125""<This block of commented-out lines of code should be removed.(‰ÛûÅüÿÿÿÿ8À»¡—ñ2
+o
+java:S6204,"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Á»¡—ñ2
+O
+java:S1481*"2Remove this unused "withoutBlanks" local variable.(¨Ëå”8Ã»¡—ñ2
+X	java:S1250"<This block of commented-out lines of code should be removed.(»è·©8Ã»¡—ñ2
+N
+java:S1481@"1Remove this unused "httpResponse" local variable.(×ù™Ž8Æ»¡—ñ2
+X	java:S125D"<This block of commented-out lines of code should be removed.(Êüôü8Ç»¡—ñ2
+]	java:S125H"<This block of commented-out lines of code should be removed.(•¤³‰øÿÿÿÿ8Ç»¡—ñ2
+]	java:S125P"<This block of commented-out lines of code should be removed.(ŽµÑ€ýÿÿÿÿ8Ç»¡—ñ2
+X	java:S125R"<This block of commented-out lines of code should be removed.(‘—½¬8Ç»¡—ñ2
+M
+java:S1128"0Remove this unused import 'java.nio.file.Files'.(‚ƒü8É»¡—ñ2
+L
+java:S1128	"/Remove this unused import 'java.nio.file.Path'.(×²êÂ8É»¡—ñ2
+L
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤þÿÿÿÿ8É»¡—ñ2
