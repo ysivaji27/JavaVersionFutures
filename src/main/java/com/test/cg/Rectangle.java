@@ -1,17 +1,16 @@
 package com.test.cg;
 
-public class Rectangle implements AreaClass {
+public class Rectangle extends Shape {
+    protected double length;
+    protected double width;
 
-    // Rectangle class
-    private double length;
-    private double breadth;
-
-    public Rectangle(double length, double breadth) {
+    public Rectangle(double length, double width) {
         this.length = length;
-        this.breadth = breadth;
+        this.width = width;
     }
+
     @Override
     public double getArea() {
-        return length * breadth;
+        return length * width;
     }
 }

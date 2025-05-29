@@ -1,6 +1,6 @@
 package com.test.cg;
 
-public class Circle implements AreaClass {
+public class Circle extends Shape {
     private double radius;
 
     public Circle(double radius) {
@@ -11,5 +11,4 @@ public class Circle implements AreaClass {
     public double getArea() {
         return Math.PI * radius * radius;
     }
-
 }

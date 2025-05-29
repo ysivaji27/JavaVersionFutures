@@ -35,7 +35,8 @@ public class ClassC {
       //  stringList.removeIf(java.util.function.Predicate.not(String::isBlank));
         System.out.println(stringList);
 
-        Set<String> stringSet = new HashSet<>() Set.of("JavaScript", "Java", "Python", "C++");
+        Set<String> stringSet = new HashSet<>();
+        Set.of("JavaScript", "Java", "Python", "C++");
         stringSet.stream()
                 .filter(java.util.function.Predicate.not(String::isBlank))
                 .forEach(System.out::println);
@@ -56,7 +57,7 @@ public class ClassC {
                 .forEach(System.out::println);
 
 
-        Set<String> sortedSet = new SortedSet<>();
+        //Set<String> sortedSet = new SortedSet<>();
     }
 
 
