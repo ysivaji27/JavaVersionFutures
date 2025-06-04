@@ -6,6 +6,8 @@ public class ClassA {
         return "Hello ClassA " + name;
     }
 
+
+
     public static String unnamedStatic(String name) {
         return "Hello ClassA static " + name;
     }
