@@ -1,4 +1,4 @@
-package org.example;
+package com.java.version.changes;
 
 public class Java21samples {
 

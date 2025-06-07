@@ -1,16 +1,13 @@
-package org.example;
+package com.java.version.changes;
 
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 

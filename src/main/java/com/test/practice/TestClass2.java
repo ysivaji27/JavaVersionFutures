@@ -57,9 +57,7 @@ public class TestClass2
        }
         // Print the groups
         for (List<String> group : groupedWords.values()) {
-
                 System.out.println(group);
-
         }
     }
 }

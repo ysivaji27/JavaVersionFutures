@@ -1,9 +1,4 @@
-package org.example;
-
-import java.awt.*;
-import java.util.HashMap;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+package com.java.version.changes;
 
 public class Java17samples {
 
