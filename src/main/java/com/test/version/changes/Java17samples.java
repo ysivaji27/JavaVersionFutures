@@ -1,4 +1,4 @@
-package com.java.version.changes;
+package com.test.version.changes;
 
 public class Java17samples {
 

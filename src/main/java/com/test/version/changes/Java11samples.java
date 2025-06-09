@@ -1,4 +1,4 @@
-package com.java.version.changes;
+package com.test.version.changes;
 
 import java.io.IOException;
 import java.net.URI;
