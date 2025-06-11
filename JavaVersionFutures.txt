@@ -1,25 +1,25 @@
 Java 8 (March 2014) – Revolutionary Update
-Lambda Expressions: (a, b) -> a + b
-Functional Interfaces: e.g. Predicate, Function, Supplier
-Streams API: Functional-style operations on collections.
-Optional Class: To avoid NullPointerException.
-Default and Static Methods in Interfaces
-New Date and Time API (java.time)
+  Lambda Expressions: (a, b) -> a + b
+  Functional Interfaces: e.g. Predicate, Function, Supplier
+  Streams API: Functional-style operations on collections.
+  Optional Class: To avoid NullPointerException.
+  Default and Static Methods in Interfaces
+  New Date and Time API (java.time)
 
 Java 11
-Local Variable Syntax for Lambda Parameters: var x -> x.length()
-New String Methods: isBlank(), lines(), strip(), repeat()
-New HttpClient API (Standard, non-incubating)
-File Methods: readString(), writeString()
-Flight Recorder and JDK Mission Control (JVM monitoring)
+  Local Variable Syntax for Lambda Parameters: var x -> x.length()
+  New String Methods: isBlank(), lines(), strip(), repeat()
+  New HttpClient API (Standard, non-incubating)
+  File Methods: readString(), writeString()
+  Flight Recorder and JDK Mission Control (JVM monitoring)
 
 Java 17
-Sealed Classes: Restrict which classes can extend a class.
-Pattern Matching for instanceof:
-Switch Expressions (standard):
-Text Blocks (from Java 13):
+  Sealed Classes: Restrict which classes can extend a class.
+  Pattern Matching for instanceof:
+  Switch Expressions (standard):
+  Text Blocks (from Java 13):
 
 Java 21
-VirtualThreads
-String Templates
-Scoped Values
+  VirtualThreads
+  String Templates
+  Scoped Values
