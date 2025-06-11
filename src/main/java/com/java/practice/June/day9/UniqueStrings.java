@@ -17,5 +17,12 @@ public class UniqueStrings {
 
         System.out.println(uniqueValues + " Set " + uniqueValuesSet);
 
+        int[] arr = {1, 2, 3, 2, 1, 4, 5, 5, 4};
+        int single_student_number = 0;
+        for (int num : arr) {
+            single_student_number ^= num;
+        }
+        System.out.println("Single student number: " + single_student_number);
     }
+
 }
