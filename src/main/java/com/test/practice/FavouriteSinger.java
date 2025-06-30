@@ -59,6 +59,9 @@ public class FavouriteSinger {
             Long max = Collections.max(songs);
             int freq = Collections.frequency(songs,max);
             System.out.println(freq+ " max " + max+"  freq"+freq);
+
+            long freq1 = songs.isEmpty() ? 0 : songs.stream().filter(x -> x.equals(Collections.max(songs))).count();
+            System.out.println(freq1 + " max " + Collections.max(songs) + "  freq" + freq1);
         }
 
     }
