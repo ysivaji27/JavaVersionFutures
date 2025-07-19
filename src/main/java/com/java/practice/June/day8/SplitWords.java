@@ -5,6 +5,7 @@ import com.java.practice.June.model.User;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class SplitWords {
     public static void main(String[] args) {
@@ -20,8 +21,8 @@ public class SplitWords {
         );
 
         List<List<Address>> listOfAddressLists = users.stream()
-                .map(User::getAddresses)  // Returns Stream<List<Address>>
-                .toList();
+                .map(User::getAddresses).collect(Collectors.toList());  // Returns Stream<List<Address>>
+        //        .toList();
 
         System.out.println(listOfAddressLists);
 

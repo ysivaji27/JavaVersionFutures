@@ -1,7 +1,6 @@
 package com.test.cg;
 
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.random.RandomGenerator;
 import java.util.stream.Collectors;
 
@@ -29,5 +28,13 @@ public class MainClass {
         RandomGenerator randomGenerator = RandomGenerator.getDefault();
         randomGenerator.ints(5, 1, 100) // 5 random ints between 1 (inclusive) and 100 (exclusive)
                 .forEach(System.out::println);
+        System.out.println("Random numbers generated using Random");
+        int input = 07;
+        System.out.println(input);
+        try {
+            //Float f1 = new Float("30.0");
+        }catch (Exception e) {
+            System.out.println("Exception occurred: " + e.getMessage());
+        }
     }
 }

@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Map;
 import java.util.function.Function;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class FavouriteSinger {
@@ -26,7 +27,7 @@ public class FavouriteSinger {
                 );
 
         ArrayList<Long> songs = new ArrayList<>(favouriteSingersMap.values());
-
+        songs.stream().findFirst();
         if(!songs.isEmpty()){
             Long max = Collections.max(songs);
             int freq = Collections.frequency(songs,max);

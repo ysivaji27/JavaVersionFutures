@@ -14,7 +14,9 @@ public class Divisibility {
 
         StringBuilder finalString =  new StringBuilder();
         for (String integerValue  : integersList) {
-            finalString.append(integerValue.substring(integerValue.length() - 1, integerValue.length()));
+           String test =  integerValue.substring(integerValue.length() - 1, integerValue.length());
+
+            finalString.append(test);
         }
         System.out.println(finalString);
         if (!finalString.toString().endsWith("0")) {
@@ -24,3 +26,7 @@ public class Divisibility {
         }
     }
 }
+
+ //       5
+ //       123 321 111 444 555
+ //       31145 - last digit from each number

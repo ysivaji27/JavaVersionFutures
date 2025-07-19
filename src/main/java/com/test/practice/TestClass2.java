@@ -59,6 +59,11 @@ public class TestClass2
         for (List<String> group : groupedWords.values()) {
                 System.out.println(group);
         }
+
+        List<String> stringList = List.of("LENS", "TAP", "STUDENT", "STUDENT", "TAP", "LENS");
+        System.out.println("Distinct elements in the list:");
+        stringList.stream().distinct().forEach(s-> { System.out.println(s); });
+
     }
 }
 

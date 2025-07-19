@@ -1,6 +1,10 @@
 package com.test.practice;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -55,12 +59,20 @@ public class HighestDuplicateValue {
         empDataMap.put(1, empData1);
         empDataMap.put(2, empData2);
 
-        empDataMap.values().stream().flatMap(
-                        empData -> empData.getAddressList().stream()
-                ).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
-                .entrySet().stream()
-                .max(Map.Entry.comparingByValue())
-                .ifPresent(entry -> System.out.println("Most frequent address: " + entry.getKey() + " -> " + entry.getValue()));
+        Map<String , Long> listMap = empDataMap.values().stream()
+                                                    .flatMap(emp -> emp.getAddressList().stream())
+                                                    .collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+
+
+        Optional<Map.Entry<String, Long>> result =  listMap.entrySet().stream().max(Map.Entry.comparingByValue());
+
+        result.ifPresent(entry-> System.out.println(entry.getKey()+" ===>  " + entry.getValue()));
+
+//        empData -> empData.getAddressList().stream()
+//                ).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+//                .entrySet().stream()
+//                .max(Map.Entry.comparingByValue())
+//                .ifPresent(entry -> System.out.println("Most frequent address: " + entry.getKey() + " -> " + entry.getValue())
 
     }
 }

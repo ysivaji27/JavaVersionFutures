@@ -10,7 +10,16 @@ public class TESTJava {
     public static String run(int input) {
         List<String> result = new ArrayList<>();
         generate("",1,input,result);
+
+        int a = 10;
+        int b = 3;
+
+        int quotient = a / b;
+        int remainder = a % b;
+
+        System.out.println("Quotient: " + quotient +" Remainder: " + remainder);
         return String.join(",",result);
+
     }
     private static void generate(
             String current,

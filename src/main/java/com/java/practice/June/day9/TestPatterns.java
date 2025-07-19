@@ -8,6 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+
 public class TestPatterns {
     public static void main(String[] args) {
         testPattern();
@@ -22,7 +23,7 @@ public class TestPatterns {
         Pattern regexPattern = Pattern.compile(pattern, Pattern.CASE_INSENSITIVE);
         Matcher matcher = regexPattern.matcher(input);
         if (matcher.find()) {
-            System.out.println("Pattern matched: " + matcher.hasMatch());
+            System.out.println("Pattern matched: " + matcher.find());
         } else {
             System.out.println("Pattern not matched");
         }

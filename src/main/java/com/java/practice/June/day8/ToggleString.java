@@ -17,5 +17,16 @@ public class ToggleString {
                 System.out.print(c);
             }
         });
+
+        char[] charArray = name.toCharArray();
+        for (int i = 0; i < charArray.length; i++) {
+            if(Character.isLowerCase(charArray[i])){
+                System.out.print(Character.toUpperCase(charArray[i]));
+            }else{
+                System.out.print(Character.toLowerCase(charArray[i]));
+            }
+
+        }
+
     }
 }

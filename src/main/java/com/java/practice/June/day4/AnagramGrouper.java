@@ -8,6 +8,7 @@ public class AnagramGrouper {
 
         Map<String, List<String>> groupedWords = new HashMap<>();
 
+
         for (String word : words) {
             // Normalize word: sort characters
             char[] chars = word.toCharArray();
@@ -16,7 +17,9 @@ public class AnagramGrouper {
 
             // Add to group
             groupedWords.computeIfAbsent(key, k -> new ArrayList<>()).add(word);
+
         }
+
 
         // Print the groups
         for (List<String> group : groupedWords.values()) {

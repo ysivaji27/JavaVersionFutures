@@ -11,6 +11,13 @@ public class PalindromicString {
             System.out.println("NO");
         }
 
+        StringBuffer sb = new StringBuffer(input);
+        String  reversedString2 =   sb.reverse().toString();
+        if(reversedString2.equals(input)){
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
 
     }
 }
