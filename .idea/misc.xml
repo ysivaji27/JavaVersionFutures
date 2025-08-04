@@ -13,6 +13,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/../Java17Samples/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-mongodb-demo/pom.xml" />
       </set>
     </option>
   </component>

@@ -7,12 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringKafkaStreams" />
-        <module name="springboot-mongodb-demo" />
         <module name="Java21exercise" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Java21exercise (1)" target="21" />
+      <module name="springboot-mongodb-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
